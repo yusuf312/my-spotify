@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400;1,700&family=Orbitron:wght@400;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#191414;
+}
+
+nav{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+nav ul li:hover{
+    font-weight: bold;
+    color: blue;
+}
+.brand img{
+    width: 100px;
+    padding: 0px 9px;
+}
+.container{
+    min-height:72vh ;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 34px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 14px;
+}
+.icons i{
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+   ;
+    color: black;
+    margin: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+.songitemcontaner{
+    margin-top: 74px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0px 23px;
+    border-radius: 34px;
+    
+}
+.timestamp{
+    margin: 0px 23px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.text{
+        width: 310px;
+        margin: 0px 70px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-family: 'Lato', sans-serif;
+}
+@media only screen and (max-width:1200px){
+    body{
+        background-color: aquamarine;
+    }
+}
+
+ 
+
+    
